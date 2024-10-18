@@ -1,8 +1,9 @@
+
 .game{
     display: flex;
     justify-content: center;
     gap: 3cm;
-    padding-top: 25%;
+    padding-top: 10%;
 
 }
 .button{
@@ -14,4 +15,27 @@
     color: white; /* Text color */
     border: none; /* Remove border */
     border-radius: 5px; /* Rounded corners */
+}
+
+.scorecard{
+    display: flex;
+    justify-content: center;
+    gap : 2cm;
+}
+.player{
+    padding: 70px;
+    border: 70px;
+    background-color: rgb(4, 4, 71);
+    color: aliceblue;
+    border: 50px;
+    border-radius: 5px;
+    align-items: center;
+}
+.computer{
+    padding: 50px;
+    border: 50px;
+    background-color: rgb(4, 4, 71);
+    color: aliceblue;
+    border-radius: 5px;
+    align-items: center;
 }
